@@ -1,6 +1,6 @@
 # Django-ReactJS-Framework-Listing-Application
 This projects comprises the creation of a basic web application to list various technical frameworks, packages and databases and segregates the listed elements into completed and incomplete tabs.
-The application offers options for the elements of the list to be deleted, edited or added along with a brief discription.
+The application offers options for the elements of the list to be deleted, edited or added along with a brief description.
 ## Technical aspects used in the project
 - Django is a Python-based free and open-source web framework that follows the model–template–views (MTV) architectural pattern.  
 - ReactJS is a free and open-source front-end JavaScript library for building user interfaces based on UI components.
