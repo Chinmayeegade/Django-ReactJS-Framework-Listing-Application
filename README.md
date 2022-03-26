@@ -8,32 +8,32 @@ The application offers options for the elements of the list to be deleted, edite
 - Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
 -  Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.
 ## Backend Development
--     mkdir app_name
-      cd app_name
-      python -m venv dar
-      dar\Scripts\activate.bat
-      pip install django
-      pip install djangorestframework
-      pip install django-cors-headers
-      django-admin startproject backend
+-     $ mkdir app_name
+      $ cd app_name
+      $ python -m venv dar
+      $ dar\Scripts\activate.bat
+      $ pip install django
+      $ pip install djangorestframework
+      $ pip install django-cors-headers
+      $ django-admin startproject backend
       code .
-      cd backend
-      python manage.py startapp todo
-      python manage.py migrate
-      python manage.py runserver 
+      $ cd backend
+      $ python manage.py startapp todo
+      $ python manage.py migrate
+      $ python manage.py runserver 
       #After editing models.py
-      python manage.py makemigrations
-      python manage.py migrate 
+      $ python manage.py makemigrations
+      $ python manage.py migrate 
       #After editing admin.py
-      python manage.py createsuperuser
-      python manage.py runserver    
+      $ python manage.py createsuperuser
+      $ python manage.py runserver    
 ## Frontend Development
--     dar\Scripts\activate.bat
-      npx create-react-app frontend
-      npm install reactstrap bootstrap
-      npm install axios
-      cd frontend
-      npm start
+-     $ dar\Scripts\activate.bat
+      $ npx create-react-app frontend
+      $ npm install reactstrap bootstrap
+      $ npm install axios
+      $ cd frontend
+      $ npm start
 ## Images
 ![Screenshot (428)](https://user-images.githubusercontent.com/96294811/146544551-0e63ec65-0d65-49e7-8361-677b069476f6.png)![Screenshot (429)](https://user-images.githubusercontent.com/96294811/146544552-4d709a92-e36a-45c5-bc7f-36bf8c6d4d33.png)
 
